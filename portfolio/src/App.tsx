@@ -1,4 +1,4 @@
-function Contact() {
+function App() {
 
   return (
     <>
@@ -12,4 +12,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default App
