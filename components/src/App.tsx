@@ -1,5 +1,6 @@
 import { Contact } from "./Contact";
 import { Navigation } from "./Navigation";
+import { About } from "./About";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           ))}
         </div>
         <Navigation />
+        <About />
         <Contact />
       </div>
     </>
