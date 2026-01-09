@@ -1,13 +1,10 @@
 export function About() {
   return (
-    <section
-      id="about"
-      className="py-4 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-black via-purple-950/10 to-black relative z-10"
-    >
+    <section id="about" className="section">
       <div className="space-y-6">
         <div className="mx-auto">
           <div className="text-center mb-16">
-            <div className="text-gray-400 text-2xl text-left pb-2">I am...</div>
+            <div className="text-white text-2xl text-left pb-2">I am...</div>
             <h2 className="text-white text-6xl mb-5 text-left">
               <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent text-left pb-4">
                 Name

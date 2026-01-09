@@ -1,16 +1,10 @@
 export function Contact() {
   return (
-    <section
-      id="contact"
-      className="py-4 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-black via-purple-950/10 to-black relative z-10"
-    >
+    <section id="contact" className="section">
       <div className=" mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-white text-5xl mb-5">
-            <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-              Establish
-            </span>{" "}
-            A Connection
+            <span className="span">Establish</span> A Connection
           </h2>
           <p className="text-gray-400 mx-auto py-2">
             Have a question, send a message to chat with me!
@@ -21,7 +15,7 @@ export function Contact() {
                 <div className="flex flex-col space-y-2"></div>
                 <label className="mb-0 pb-2 text-left text-lg">Your Name</label>
                 <input
-                  className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                  className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600 "
                   placeholder="Enter your name"
                 ></input>
                 <div className="flex flex-col space-y-2 pb-4"></div>

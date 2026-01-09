@@ -18,22 +18,30 @@ body {
   --primary: #a855f7;
   --primary-foreground: #ffffff;
 }
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgb(59 7 100 / 0.1),
+    black
+  );
+  position: relative;
+  z-index: 10;
+}
 
-/* Custom utility helpers */
-.bg-background {
-  background-color: var(--background);
-}
-.bg-card {
-  background-color: var(--card);
-}
-.text-foreground {
-  color: var(--foreground);
-}
-.text-primary {
-  color: var(--primary);
-}
-.border-primary {
-  border-color: var(--primary);
+.span {
+  background-image: linear-gradient(
+    to right,
+    rgb(196 181 253),
+    rgb(147 51 234)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /* Particle animation */
