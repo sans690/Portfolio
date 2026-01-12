@@ -3,6 +3,7 @@ import { Navigation } from "./Navigation";
 import { Home } from "./Home";
 import { About } from "./About";
 import { Skills } from "./Skills";
+import { Projects } from "./Projects";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Home />
         <About />
         <Skills />
+        <Projects />
         <Contact />
       </div>
     </>

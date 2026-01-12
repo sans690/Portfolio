@@ -33,9 +33,13 @@ body {
   z-index: 10;
 }
 
+.border_card_group {
+  transition: all 0s ease;
+}
+
 .border_card {
   flex: 1 1 300px;
-  min-width: 80px;
+  min-width: 400px;
   max-width: 410px;
   height: 250px;
   background: linear-gradient(
@@ -47,6 +51,12 @@ body {
   border-radius: 0.75rem;
   border: 1px solid;
   border-color: rgba(147, 51, 234, 0.3);
+  transition: all 0.5s ease;
+}
+
+.border_card_group:hover .border_card {
+  border-color: var(--color-purple-500);
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3);
 }
 
 .border_card_purple {
