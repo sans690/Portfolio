@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <section id="contact" className="section">
-      <div className=" mx-auto">
+      <div className="mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-white text-5xl mb-5">
             <span className="span">Establish</span> A Connection
@@ -13,27 +13,25 @@ export function Contact() {
             <div className="w-full h-full min-h-5px max-w-5xl bg-linear-to-br from-purple-950/30 to-black p-8 rounded-xl border border-purple-600/30 shadow-2xl shadow-purple-500/10">
               <div className="flex flex-col space-y-6">
                 <div className="flex flex-col space-y-2"></div>
-                <label className="mb-0 pb-2 text-left text-lg">Your Name</label>
+                <label className="label text-left">Your Name</label>
                 <input
                   className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600 "
                   placeholder="Enter your name"
                 ></input>
                 <div className="flex flex-col space-y-2 pb-4"></div>
-                <label className="mb-0 pb-2 text-left text-lg">
-                  Email Address
-                </label>
+                <label className="label text-left">Email Address</label>
                 <input
                   className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="Enter your email address"
                 ></input>
                 <div className="flex flex-col space-y-2 pb-4"></div>
-                <label className="mb-0 pb-2 text-left text-lg">Subject</label>
+                <label className="label text-left">Subject</label>
                 <input
                   className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="What's this message about"
                 ></input>
                 <div className="flex flex-col space-y-2 pb-4"></div>
-                <label className="mb-0 pb-2 text-left text-lg">Message</label>
+                <label className="label text-left">Message</label>
                 <textarea
                   className="mb-6 px-4 py-4 resize-none h-54 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="Tell me about what you need"
