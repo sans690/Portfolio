@@ -6,14 +6,14 @@ export function About() {
           <div className="text-center mb-16">
             <h2 className="text-white text-5xl mb-5">
               About
-              <span className="span"> Name</span>
+              <span className="span"> Me</span>
             </h2>
             <p className="text">
               Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
               consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
               quisque faucibus ex sapien vitae pellentesque.
             </p>
-            <div className="card-container">
+            <div className="card_container">
               <div className="border_card">
                 {" "}
                 <p className="label text-left text-3xl">Sample</p>

@@ -2,6 +2,7 @@ import { Contact } from "./Contact";
 import { Navigation } from "./Navigation";
 import { Home } from "./Home";
 import { About } from "./About";
+import { Skills } from "./Skills";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Navigation />
         <Home />
         <About />
+        <Skills />
         <Contact />
       </div>
     </>
