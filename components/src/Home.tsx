@@ -3,7 +3,7 @@ export function Home() {
     <section id="home" className="section">
       <div className="space-y-2">
         <div className="mx-auto">
-          <div className="text-center mb-8">
+          <div className="text-center mb-16">
             <div className="flex flex-col gap-2 items-left justify-center overflow-x-auto">
               <div className="text-white text-2xl text-left">I am...</div>
               <h2 className="text-white text-6xl mb-2 text-left">

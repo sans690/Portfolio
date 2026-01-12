@@ -17,7 +17,13 @@ body {
   --popover-foreground: #ffffff;
   --primary: #a855f7;
   --primary-foreground: #ffffff;
+  --color-purple-300: #dab2ff;
+  --color-purple-400: #c27aff;
+  --color-purple-500: #ad46ff;
+  --color-purple-600: #9333ea;
+  --color-purple-900: #59168b;
 }
+
 .section {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -43,6 +49,49 @@ body {
   border-color: rgba(147, 51, 234, 0.3);
 }
 
+.border_card_purple {
+  flex: 1 1 400px;
+  min-width: 350px;
+  max-width: 500px;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  background-image: linear-gradient(to right, var(--color-purple-600));
+  padding: 2rem;
+  margin-bottom: 20px;
+  border-radius: 0.75rem;
+  border: 1px solid;
+  border-color: var(--color-purple-500);
+}
+
+.small_box_purple {
+  min-width: 80px;
+  max-width: 100px;
+  height: 50px;
+  background-color: color-mix(
+    in srgb,
+    var(--color-purple-900) 60%,
+    transparent
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-radius: 0.75rem;
+  border: 1px solid;
+  border-color: var(--color-purple-600);
+  color: var(--color-purple-300);
+  margin-top: 40px;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-left: -2rem;
+}
+
 .span {
   background-image: linear-gradient(
     to right,
@@ -54,7 +103,7 @@ body {
   color: transparent;
 }
 
-.card-container {
+.card_container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -64,6 +113,7 @@ body {
   max-width: 100vw;
 }
 
+/* phone layout */
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
@@ -73,17 +123,6 @@ body {
   .border_card {
     width: 100%;
     max-width: 90vw;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .card-container {
-    justify-content: space-around;
-  }
-
-  .border_card {
-    flex: 1 1 45%;
-    max-width: 45%;
   }
 }
 
