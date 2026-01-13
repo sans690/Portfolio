@@ -2,7 +2,7 @@ export function Skills() {
   return (
     <section id="skills" className="section">
       <div className="mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-16">
           <h2 className="text-white text-5xl mb-5">
             <span className="span">Skills</span> & Abilities
           </h2>
@@ -12,33 +12,36 @@ export function Skills() {
             quisque faucibus ex sapien vitae pellentesque.
           </p>
           <div className="card_container">
+            {/* 1st box */}
             <div className="mb-10 align-items-left">
               <div className="border_card_purple mb-10">
                 {" "}
                 <p className="label text-left text-3xl">Frontend</p>
                 <div className="flex_container">
-                  <div className="small_box_purple">Text</div>
-                  <div className="small_box_purple">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
                 </div>
               </div>
             </div>
+            {/* 2nd box */}
             <div className="mb-10">
               <div className="border_card_purple mb-10">
                 {" "}
                 <p className="label text-left text-3xl">Backend</p>
                 <div className="flex_container">
-                  <div className="small_box_purple">Text</div>
-                  <div className="small_box_purple">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
                 </div>
               </div>
             </div>
+            {/* 3rd box */}
             <div className="mb-10">
               <div className="border_card_purple mb-10">
                 {" "}
                 <p className="label text-left text-3xl">Tools</p>
                 <div className="flex_container">
-                  <div className="small_box_purple">Text</div>
-                  <div className="small_box_purple">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">Text</div>
                 </div>
               </div>
             </div>

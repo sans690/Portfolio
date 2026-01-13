@@ -14,22 +14,25 @@ export function About() {
               quisque faucibus ex sapien vitae pellentesque.
             </p>
             <div className="card_container">
-              <div className="border_card">
+              {/* 1st box */}
+              <div className="about_border_card">
                 {" "}
-                <p className="label text-left text-3xl">Sample</p>
+                <p className="label text-left text-3xl mb-5">Sample</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
               </div>
-              <div className="border_card">
+              {/* 2nd box */}
+              <div className="about_border_card">
                 {" "}
-                <p className="label text-left text-3xl">Sample</p>
+                <p className="label text-left text-3xl mb-5">Sample</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
               </div>
-              <div className="border_card">
-                <p className="label text-left text-3xl">Sample</p>
+              {/* 3rd box */}
+              <div className="about_border_card">
+                <p className="label text-left text-3xl mb-5">Sample</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
@@ -37,7 +40,7 @@ export function About() {
             </div>
             <div className="flex flex-col mt-20 justify-center items-center">
               <div className="w-full h-full min-h-5px max-w-7xl bg-linear-to-br from-purple-950/30 to-black p-8 rounded-xl border border-purple-600/30 ">
-                <p className="label text-left text-3xl">The Journey</p>
+                <p className="label text-left text-3xl mb-6">The Journey</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit
                   amet consectetur adipiscing elit quisque faucibus ex.
