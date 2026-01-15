@@ -21,7 +21,9 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "types": []
   },
   "include": ["src", "src/Contact.tsx", "src/App.tsx", "main.tsx"]
 }
