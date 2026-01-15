@@ -12,33 +12,43 @@ export function Contact() {
           {/* Main flex container */}
           <div className="flex flex-col items-center justify-center mt-5">
             <div className="w-full h-full min-h-5px max-w-5xl bg-linear-to-br from-purple-950/30 to-black p-8 rounded-xl border border-purple-600/30 shadow-2xl shadow-purple-500/10">
-              <div className="flex flex-col space-y-6">
-                {/* 1st input form */}
-                <div className="flex flex-col space-y-2"></div>
-                <label className="label text-left">Your Name</label>
-                <input
-                  className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600 "
-                  placeholder="Enter your name"
-                ></input>
-                {/* 2nd input form */}
-                <div className="flex flex-col space-y-2 pb-4"></div>
-                <label className="label text-left">Email Address</label>
-                <input
-                  className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
-                  placeholder="Enter your email address"
-                ></input>
+              <div className="flex flex-col space-y-2">
+                {/* Name and Email in a row */}
+                <div className="flex flex-col md:flex-row gap-6">
+                  {/* 1st input form */}
+                  <div className="flex flex-col space-y-2 flex-1">
+                    <label className="label text-left text-white">
+                      Your Name
+                    </label>
+                    <input
+                      className="px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  {/* 2nd input form */}
+                  <div className="flex flex-col space-y-2 flex-1">
+                    <label className="label text-left text-white">
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      className="px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                      placeholder="Enter your email address"
+                    />
+                  </div>
+                </div>
                 {/* 3rd input form */}
                 <div className="flex flex-col space-y-2 pb-4"></div>
                 <label className="label text-left">Subject</label>
                 <input
-                  className="mb-0 px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                  className="px-4 py-4 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="What's this message about"
                 ></input>
                 {/* 4th input form */}
                 <div className="flex flex-col space-y-2 pb-4"></div>
                 <label className="label text-left">Message</label>
                 <textarea
-                  className="mb-6 px-4 py-4 resize-none h-54 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                  className="px-4 py-4 resize-none h-54 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="Tell me about what you need"
                 ></textarea>
                 <a

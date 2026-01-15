@@ -4,7 +4,7 @@ export function Projects() {
   return (
     <section id="projects" className="section">
       <div className="mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center">
           <h2 className="text-white text-5xl mb-5">
             <span className="span">Featured</span> Projects
           </h2>
