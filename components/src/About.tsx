@@ -17,7 +17,7 @@ export function About() {
               {/* 1st box */}
               <div className="about_border_card">
                 {" "}
-                <p className="label text-left text-3xl mb-5">Sample</p>
+                <p className="label text-left text-3xl mb-5">Education</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
@@ -25,14 +25,14 @@ export function About() {
               {/* 2nd box */}
               <div className="about_border_card">
                 {" "}
-                <p className="label text-left text-3xl mb-5">Sample</p>
+                <p className="label text-left text-3xl mb-5">Experiences</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
               </div>
               {/* 3rd box */}
               <div className="about_border_card">
-                <p className="label text-left text-3xl mb-5">Sample</p>
+                <p className="label text-left text-3xl mb-5">Interests</p>
                 <p className="text text-left">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>

@@ -18,8 +18,8 @@ export function Skills() {
                 {" "}
                 <p className="label text-left text-3xl">Frontend</p>
                 <div className="flex_container">
-                  <div className="small_box_purple mt-12">Text</div>
-                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">React</div>
+                  <div className="small_box_purple mt-12">Vue.js</div>
                 </div>
               </div>
             </div>
@@ -29,8 +29,8 @@ export function Skills() {
                 {" "}
                 <p className="label text-left text-3xl">Backend</p>
                 <div className="flex_container">
-                  <div className="small_box_purple mt-12">Text</div>
-                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">Python</div>
+                  <div className="small_box_purple mt-12">C#</div>
                 </div>
               </div>
             </div>
@@ -40,8 +40,8 @@ export function Skills() {
                 {" "}
                 <p className="label text-left text-3xl">Tools</p>
                 <div className="flex_container">
-                  <div className="small_box_purple mt-12">Text</div>
-                  <div className="small_box_purple mt-12">Text</div>
+                  <div className="small_box_purple mt-12">Figma</div>
+                  <div className="small_box_purple mt-12">Github</div>
                 </div>
               </div>
             </div>
