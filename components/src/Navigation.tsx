@@ -20,7 +20,7 @@ export function Navigation() {
             onClick={() => scrollToSection("home")}
             className="text-xl text-white hover:text-purple-400 transition-colors"
           >
-            Name's Portfolio
+            Saniyah's Portfolio
           </button>
 
           {/* Desktop Navigation */}
