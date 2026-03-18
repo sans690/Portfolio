@@ -14,17 +14,18 @@ export function Home() {
                   <div className="text-white text-2xl text-left">I am...</div>
                   <h2 className="text-white text-6xl mb-2 text-left">
                     <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent text-left pb-4">
-                      Name
+                      Saniyah Smith
                     </span>
                   </h2>
-                  <div className="text-purple-300 text-left pb-2 text-3xl">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                  </div>
+                  {/* <div className="text-purple-300 text-left pb-2 text-3xl">
+                    I’m a recent Computer Science grad from the University of
+                    Virginia, and I’m passionate about building software and
+                    improving user experiences.
+                  </div> */}
                   <p className="text text-left">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit
-                    amet consectetur adipiscing elit quisque faucibus ex.
-                    Adipiscing elit quisque faucibus ex sapien vitae
-                    pellentesque.
+                    I’m a recent Computer Science grad from the University of
+                    Virginia, and I’m passionate about building software and
+                    improving user experiences.
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <a
