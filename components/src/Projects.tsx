@@ -1,4 +1,3 @@
-import baby from "./Images/baby.png";
 import TwilightTowers from "./Images/TwilightTowers.jpg";
 import SlimJim from "./Videos/SlimJim.mp4";
 import BankAccountSimulator from "./Images/BankaccountSimulator.png";
