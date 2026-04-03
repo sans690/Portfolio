@@ -18,8 +18,15 @@ export function About() {
               <div className="about_border_card">
                 {" "}
                 <p className="label text-left text-3xl mb-5">Education</p>
-                <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                <p className="text_in_box text-left">University of Virginia</p>
+                <p className="text_in_box text-left">
+                  Central Virginia Community College
+                </p>
+                <p className="text_in_box text-left">
+                  Blue Ridge Community College-SDL
+                </p>
+                <p className="text_in_box text-left">
+                  Virginia Western Community College-SDL
                 </p>
               </div>
               {/* 2nd box */}
