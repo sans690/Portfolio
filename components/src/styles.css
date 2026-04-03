@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
   background-color: var(--background);
   color: var(--foreground);
 }
@@ -114,16 +114,16 @@ body {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 10px;
-  border-radius: 0.75rem;
+  border-radius: 0.35rem;
   border: 1px solid;
   border-color: var(--color-purple-600);
   color: var(--color-purple-300);
 }
 
 .small_box_purple_rounded {
-  min-width: 80px;
-  max-width: 100px;
-  height: 50px;
+  min-width: 60px;
+  max-width: 80px;
+  height: 40px;
   background-color: color-mix(
     in srgb,
     var(--color-purple-900) 60%,
@@ -191,6 +191,12 @@ body {
   max-width: xl;
   padding-bottom: 2rem;
 }
+.text_in_box {
+  color: var(--color-gray-400);
+  justify-content: center;
+  margin-bottom: 10px;
+  max-width: xl;
+}
 .text_left {
   color: var(--color-gray-400);
   text-align: left;
@@ -200,6 +206,7 @@ body {
 
 .project_image_group {
   overflow: hidden;
+  border-radius: 0.45rem;
 }
 
 .profile_image_group {
@@ -209,9 +216,10 @@ body {
 }
 
 .project_image {
-  width: 500px;
+  display: block;
+  width: 100%;
   height: 250px;
-
+  object-fit: cover;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform-origin: center;
 }
