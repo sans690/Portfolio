@@ -48,7 +48,7 @@ export function Contact() {
                 <div className="flex flex-col space-y-2 pb-4"></div>
                 <label className="label text-left">Message</label>
                 <textarea
-                  className="px-4 py-4 resize-none h-54 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
+                  className="mb-5 px-4 py-4 resize-none h-50 bg-black/50 border border-purple-600/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder-gray-600"
                   placeholder="Tell me about what you need"
                 ></textarea>
                 <a

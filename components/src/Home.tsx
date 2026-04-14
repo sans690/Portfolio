@@ -1,33 +1,26 @@
-import baby from "./Images/baby.png";
-
 export function Home() {
   return (
-    <div className="justify-center align-items-stretch">
+    <div className="flex justify-center items-stretch">
       <section id="home" className="section">
         <div className="space-y-2">
           <div className="mx-auto">
-            <div className="mb-16 ml-10">
+            <div className="mb-16 mx-auto max-w-3xl">
               {/* Main flex container for row layout */}
-              <div className="flex flex-col lg:flex-row lg:items-center lg:gap-12">
+              <div className="flex flex-col items-center justify-center text-center">
                 {/* Text content - left side */}
-                <div className="flex flex-col gap-2 items-left justify-center flex-1">
-                  <div className="text-white text-2xl text-left">I am...</div>
-                  <h2 className="text-white text-6xl mb-2 text-left">
-                    <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent text-left pb-4">
+                <div className="flex flex-col gap-2 items-center justify-center flex-1">
+                  <div className="text-white text-2xl text-center">I am...</div>
+                  <h2 className="text-white text-6xl mb-2 text-center">
+                    <span className="bg-linear-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent text-center pb-4">
                       Saniyah Smith
                     </span>
                   </h2>
-                  {/* <div className="text-purple-300 text-left pb-2 text-3xl">
-                    I’m a recent Computer Science grad from the University of
-                    Virginia, and I’m passionate about building software and
-                    improving user experiences.
-                  </div> */}
-                  <p className="text text-left">
+                  <p className="text text-center">
                     I’m a recent Computer Science grad from the University of
                     Virginia, and I’m passionate about building software and
                     improving user experiences.
                   </p>
-                  <div className="flex flex-wrap gap-4">
+                  <div className="flex flex-wrap gap-4 justify-center">
                     <a
                       href="#contact"
                       className="px-8 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 relative overflow-hidden group"
@@ -44,9 +37,9 @@ export function Home() {
                   </div>
                 </div>
                 {/* Image - right side */}
-                <div className="profile_image_group lg:shrink-0 mt-8 lg:mt-0">
+                {/* <div className="profile_image_group lg:shrink-0 mt-8 lg:mt-0">
                   <img src={baby} className="profile_image"></img>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
