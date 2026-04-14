@@ -1,3 +1,6 @@
+import ChrisRec from "./Recommendations/ChrisRec.txt?raw";
+import JakeRec from "./Recommendations/JakeRec.txt?raw";
+
 export function About() {
   return (
     <section id="about" className="section">
@@ -9,9 +12,7 @@ export function About() {
               <span className="span"> Me</span>
             </h2>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
-              consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
-              quisque faucibus ex sapien vitae pellentesque.
+              Here are a few things about me that might catch your interest
             </p>
             <div className="card_container">
               {/* 1st box */}
@@ -32,33 +33,40 @@ export function About() {
               {/* 2nd box */}
               <div className="about_border_card">
                 {" "}
-                <p className="label text-left text-3xl mb-5">Experiences</p>
-                <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                <p className="label text-left text-3xl mb-5">
+                  Experiences
+                </p>{" "}
+                <p className="text_in_box text-left">
+                  CloudFit Software: Software Development Intern
+                </p>
+                <p className="text_in_box text-left">
+                  Radiant Health and Wellness: Front Desk/ IT
+                </p>
+                <p className="text_in_box text-left">
+                  Central Virginia Community College: Peer Writing Tutor
                 </p>
               </div>
               {/* 3rd box */}
               <div className="about_border_card">
                 <p className="label text-left text-3xl mb-5">Interests</p>
                 <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                  <p className="text_in_box text-left">Welding</p>
+                  <p className="text_in_box text-left">3D Printing</p>
+                  <p className="text_in_box text-left">Woodworking</p>
+                  <p className="text_in_box text-left">Art</p>
                 </p>
               </div>
             </div>
             <div className="flex flex-col mt-20 justify-center items-center">
               <div className="w-full h-full min-h-5px max-w-7xl bg-linear-to-br from-purple-950/30 to-black p-8 rounded-xl border border-purple-600/30 ">
-                <p className="label text-left text-3xl mb-6">The Journey</p>
+                <p className="label text-left text-3xl mb-6">Recommendations</p>
                 <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit
-                  amet consectetur adipiscing elit quisque faucibus ex.
-                </p>
-                <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit
-                  amet consectetur adipiscing elit quisque faucibus ex.
-                </p>
-                <p className="text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit
-                  amet consectetur adipiscing elit quisque faucibus ex.
+                  <p className="text_in_box text-left whitespace-pre-line">
+                    {ChrisRec}
+                  </p>
+                  <p className="text_in_box text-left whitespace-pre-line">
+                    {JakeRec}
+                  </p>
                 </p>
               </div>
             </div>

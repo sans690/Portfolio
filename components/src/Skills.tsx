@@ -7,9 +7,7 @@ export function Skills() {
             <span className="span">Skills</span> & Abilities
           </h2>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
-            consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
-            quisque faucibus ex sapien vitae pellentesque.
+            Here are some of the tools and technologies I’ve worked with.
           </p>
           <div className="card_container">
             {/* 1st box */}
