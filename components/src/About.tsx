@@ -62,18 +62,29 @@ export function About() {
               </div>
             </div>
             <div className="flex flex-col mt-20 justify-center items-center">
-              <div className="w-full h-full min-h-5px max-w-7xl bg-linear-to-br from-purple-950/30 to-black p-8 rounded-xl border border-purple-600/30 ">
+              <div>
                 <p className="label text-center text-3xl mb-6">
                   Recommendations
                 </p>
-                <p className="text text-left">
-                  <p className="text_in_box text-left whitespace-pre-line">
-                    {ChrisRec}
-                  </p>
-                  <p className="text_in_box text-left whitespace-pre-line">
-                    {JakeRec}
-                  </p>
-                </p>
+                <div className="grid gap-5 md:grid-cols-2">
+                  <div className="rounded-xl border border-purple-500/40 bg-purple-900/75 p-6 ">
+                    <div className="text-white mb-4 mt-4">
+                      Christopher Chung: Service Manager at CloudFit Software
+                    </div>
+                    <p className="text_in_box text-left whitespace-pre-line">
+                      {ChrisRec}
+                    </p>
+                  </div>
+                  <div className="rounded-xl border border-purple-500/40 bg-purple-900/75 p-6">
+                    <div className="text-white mb-4 mt-4">
+                      Jake Hadley: Software Engineer | Full-Stack Developer |
+                      Mobile App Developer
+                    </div>
+                    <p className="text_in_box text-left whitespace-pre-line">
+                      {JakeRec}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
