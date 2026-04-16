@@ -1,6 +1,6 @@
 import TwilightTowers from "./Images/TwilightTowers.jpg";
 import SlimJim from "./Videos/SlimJim.mp4";
-import BankAccountSimulator from "./Images/BankaccountSimulator.png";
+import BankAccountSimulator from "./Images/BankAccountSimulator.png";
 
 export function Projects() {
   return (
