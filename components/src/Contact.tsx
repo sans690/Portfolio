@@ -103,7 +103,7 @@ export function Contact() {
                 </button>
                 {statusMessage && (
                   <p
-                    className={`text-left text-sm ${
+                    className={`text-center text-sm ${
                       statusType === "success"
                         ? "text-green-400"
                         : "text-red-400"
