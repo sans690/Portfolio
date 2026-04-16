@@ -44,10 +44,10 @@ body {
 }
 
 .about_border_card {
-  flex: 1 1 300px;
-  min-width: 400px;
-  max-width: 410px;
-  height: 250px;
+  flex: 1 1 320px;
+  min-width: 0;
+  width: min(100%, 410px);
+  min-height: 250px;
   background: linear-gradient(
     to bottom right,
     rgba(59, 7, 100, 0.3) 0%,
@@ -165,19 +165,22 @@ body {
   justify-content: center;
   align-items: stretch;
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
 }
 
 /* phone layout */
 @media (max-width: 768px) {
-  .card-container {
+  .card_container {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
   }
 
-  .border_card {
+  .about_border_card,
+  .project_border_card,
+  .border_card_purple {
     width: 100%;
-    max-width: 90vw;
+    max-width: 100%;
+    min-width: 0;
   }
 }
 
