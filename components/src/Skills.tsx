@@ -14,8 +14,8 @@ export function Skills() {
             <div className="mb-10 align-items-left">
               <div className="border_card_purple mb-10">
                 {" "}
-                <p className="label text-left text-3xl">Frontend</p>
-                <div className="flex_container">
+                <p className="label text-center text-3xl">Frontend</p>
+                <div className="mt-1 flex gap-3 justify-center">
                   <div className="small_box_purple mt-12">React</div>
                   <div className="small_box_purple mt-12">Vue.js</div>
                 </div>
@@ -25,8 +25,8 @@ export function Skills() {
             <div className="mb-10">
               <div className="border_card_purple mb-10">
                 {" "}
-                <p className="label text-left text-3xl">Backend</p>
-                <div className="flex_container">
+                <p className="label text-center text-3xl">Backend</p>
+                <div className="mt-1 flex gap-3 justify-center">
                   <div className="small_box_purple mt-12">Python</div>
                   <div className="small_box_purple mt-12">C#</div>
                 </div>
@@ -36,8 +36,8 @@ export function Skills() {
             <div className="mb-10">
               <div className="border_card_purple mb-10">
                 {" "}
-                <p className="label text-left text-3xl">Tools</p>
-                <div className="flex_container">
+                <p className="label text-center text-3xl">Tools</p>
+                <div className="mt-1 flex gap-3 justify-center">
                   <div className="small_box_purple mt-12">Figma</div>
                   <div className="small_box_purple mt-12">Github</div>
                 </div>
