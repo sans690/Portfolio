@@ -30,7 +30,7 @@ export function Projects() {
                   </video>
                   {/* <img src={baby} className="project_image"></img> */}
                 </div>
-                <div className="label text-2xl text-left mt-10">
+                <div className="label text-2xl text-center mt-10">
                   Slim Jim (Workout App)
                 </div>
                 <p className="text_left">
@@ -38,9 +38,11 @@ export function Projects() {
                   course, where my team gathered community feedback and
                   developed an application based on that input.
                 </p>
-                <div className="small_box_purple_rounded mt-2">Django</div>
-                {/* <div className="small_box_purple_rounded mt-2">HTML</div> */}
-                <div className="small_box_purple_rounded mt-2">Python</div>
+                <div className="mt-2 flex justify-center gap-3">
+                  <div className="small_box_purple_rounded mt-2">Django</div>
+                  {/* <div className="small_box_purple_rounded mt-2">HTML</div> */}
+                  <div className="small_box_purple_rounded mt-2">Python</div>
+                </div>
               </div>
             </div>
             {/* 2nd box */}
@@ -49,7 +51,7 @@ export function Projects() {
                 <div className="project_image_group">
                   <img src={TwilightTowers} className="project_image"></img>
                 </div>
-                <div className="label text-2xl text-left mt-10">
+                <div className="label text-2xl text-center mt-10">
                   Twilight Tower
                 </div>
                 <p className="text_left">
@@ -57,8 +59,10 @@ export function Projects() {
                   where my team collaborated on the game’s concept, visuals, and
                   core gameplay.
                 </p>
-                <div className="small_box_purple_rounded mt-2">Unity</div>
-                <div className="small_box_purple_rounded mt-2">C#</div>
+                <div className="mt-2 flex justify-center gap-3">
+                  <div className="small_box_purple_rounded mt-2">Unity</div>
+                  <div className="small_box_purple_rounded mt-2">C#</div>
+                </div>
               </div>
             </div>
             {/* 3rd box */}
@@ -70,7 +74,7 @@ export function Projects() {
                     className="project_image"
                   ></img>
                 </div>
-                <div className="label text-2xl text-left mt-10">
+                <div className="label text-2xl text-center mt-10">
                   Bank Simulator + UI
                 </div>
                 <p className="text_left">
@@ -78,8 +82,10 @@ export function Projects() {
                   me become more comfortable working with C#. This is still in
                   progress.
                 </p>{" "}
-                <div className="small_box_purple_rounded mt-2">XML</div>
-                <div className="small_box_purple_rounded mt-2">C#</div>
+                <div className="mt-2 flex justify-center gap-3">
+                  <div className="small_box_purple_rounded mt-2">XML</div>
+                  <div className="small_box_purple_rounded mt-2">C#</div>
+                </div>
               </div>
             </div>
           </div>

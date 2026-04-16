@@ -121,9 +121,9 @@ body {
 }
 
 .small_box_purple_rounded {
-  min-width: 60px;
-  max-width: 80px;
-  height: 40px;
+  min-width: 80px;
+  max-width: 100px;
+  height: 50px;
   background-color: color-mix(
     in srgb,
     var(--color-purple-900) 60%,
