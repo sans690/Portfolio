@@ -57,6 +57,7 @@ export const useEmailSubmit = () => {
         {
           from_name: name,
           from_email: email,
+          reply_to: email,
           subject,
           message,
         },
